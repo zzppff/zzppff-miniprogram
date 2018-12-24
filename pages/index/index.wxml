@@ -1,0 +1,3 @@
+<view class="container" data-key="111" bindtap='linkTo'>
+  项目首页
+</view>
