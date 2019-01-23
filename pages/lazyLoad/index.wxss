@@ -1,0 +1,17 @@
+page {
+  background: #fff;
+}
+.audio-pic {
+  width: 100vw;
+  background: #efeff4;
+  margin: 3vw 0;
+}
+.pic {
+  width: 100%;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.3s linear 0.3s;
+}
+.Action {
+  opacity: 1;
+}

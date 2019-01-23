@@ -1,0 +1,14 @@
+<view class="content">
+  <view class="audio-describe">
+    <view class="audio-title">{{audioMsg.title}}</view>
+    <view class="audio-singer">{{audioMsg.singer}}</view>
+  </view>
+  <view>
+    <image src="{{audioMsg.coverImg}}" class="coverImg" mode="widthFix" />
+  </view>
+  <view class="audio-control">
+    <view></view>
+    <view></view>
+    <view></view>
+  </view>
+</view>

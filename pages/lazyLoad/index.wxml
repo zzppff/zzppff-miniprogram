@@ -1,0 +1,8 @@
+<view class="content">
+  <block wx:key="{{img}}" wx:for="{{img}}">
+    <view class="audio-pic">
+      <image src="{{ listIndex > index ? item : '' }}" class="pic {{listIndex > index ?'Action':''}}" mode="widthFix" />
+    </view>
+  </block>
+</view>
+<!-- 该示例切换应用返回小程序时，需要滚动一下屏幕才可显示图片，寻找解决方案中，有想法者可添加微信zzppff1p进行沟通 -->

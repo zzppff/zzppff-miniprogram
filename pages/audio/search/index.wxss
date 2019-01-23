@@ -1,0 +1,65 @@
+page {
+  background: #efeff4;
+}
+.search {
+  width: 100%;
+  background: #f5f5f5;
+  border-bottom: 1px solid #efeff4;
+  padding: 8px 0;
+}
+.search-input {
+  width: 94%;
+  min-height: 30px;
+  margin-left: 3%;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 0.8em;
+}
+.content {
+  background: #fff;
+}
+.audio-list {
+  width: 92%;
+  margin: 0 4%;
+  border-bottom: 1px solid #efeff4;
+  display: flex;
+  justify-content: flex-start;
+
+}
+.audio-pic {
+  width: 18vw;
+  height: 18vw;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 3vw;
+  background: #efeff4;
+}
+.pic {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s linear 0.3s;
+}
+.audio-describe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 4vw 2vw;
+  font-size: 0.9rem;
+  color: #414141;
+}
+.audio-describe view {
+  width: 62vw;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.audio-singer{
+  font-size: 0.8rem;
+  color: #818181;
+}
+.audio-playing {
+  color: #f60;
+}
+.Action {
+  opacity: 1;
+}

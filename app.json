@@ -1,7 +1,12 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/audio/list/index",
+    "pages/audio/content/index",
+    "pages/audio/search/index",
+    "pages/lazyLoad/index"
   ],
+  "requiredBackgroundModes": ["audio"],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

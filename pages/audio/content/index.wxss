@@ -1,0 +1,20 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+}
+.coverImg {
+  width: 76vw;
+  margin: 8vw 12vw;
+  border-radius: 10%;
+}
+.audio-describe {
+  text-align: center;
+}
+.audio-title {
+  font-size: 0.9rem;
+  color: #818181;
+}
+.audio-singer{
+  font-size: 0.8rem;
+  color: #818181;
+}

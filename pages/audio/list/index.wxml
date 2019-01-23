@@ -1,0 +1,19 @@
+<view class="content">
+  <!-- list内容开始 -->
+  <block wx:key="{{audioList}}" wx:for="{{audioList}}">
+    <view class="audio-list" bindtap='playAudio' data-index="{{index}}">
+      <view class="audio-pic">
+        <image src="{{item.navImg}}" class="pic" mode="widthFix" />
+      </view>
+      <view class="audio-describe {{indexs == index ? 'audio-playing' : ''}}">
+        <view class="audio-title">
+          {{item.title}}
+        </view>
+        <view class="audio-singer">
+          {{item.singer}}
+        </view>
+      </view>
+    </view>
+  </block>
+
+</view>

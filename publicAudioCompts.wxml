@@ -1,0 +1,10 @@
+<view class="top" bindtap='top'>
+  联系我们
+</view>
+<view class="turntable" style="background-image: url({{current[index].coverImgUrl}})" bindtap="toAudio" wx:if="{{status == 1 || status == 0}}">
+  <view class="turntable-content {{ status == 1 ? 'turntable-content-ani' : ''}}">
+    <view class="content-square square-one"></view>
+    <view class="content-square square-two"></view>
+    <view class="content-square square-three"></view>
+  </view>
+</view>

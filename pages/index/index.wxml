@@ -1,3 +1,13 @@
-<view class="container" data-key="111" bindtap='linkTo'>
-  项目首页
+<view bindtap='bodyClick' class="content">
+  <block wx:key="{{list}}" wx:for="{{list}}">
+    <view class="list" data-key="{{item.link}}" bindtap='linkToList'>
+      {{item.title}}
+    </view>
+  </block>
+
+
+  <view class="buling" hidden="{{bulingHide}}" style="top: {{clientY}}px;left: {{clientX}}px;">
+    哈哈
+  </view>
 </view>
+

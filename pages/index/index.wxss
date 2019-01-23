@@ -1,0 +1,26 @@
+.content {
+  width: 100vw;
+  min-height: 100vh;
+}
+.list {
+  width: 94vw;
+  height: 30vw;
+  line-height: 30vw;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px solid #888;
+  border: 1px solid #efeff4;
+  text-align: center;
+  margin: 3vw;
+}
+
+.buling {
+  width: 10vw;
+  height: 5vw;
+  line-height: 5vw;
+  position: fixed;
+  border-radius: 5vw;
+  text-align: center;
+  background: #f9f;
+  color: #fff;
+  font-size: 0.7rem;
+}
