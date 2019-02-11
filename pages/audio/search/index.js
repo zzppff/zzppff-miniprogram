@@ -48,6 +48,21 @@ Page({
       that.audio()
     })
   },
+  copyLink: function (e) {
+    const that = this
+    const index = e.currentTarget.dataset.index
+    const indexs = that.data.indexs
+    wx.setClipboardData({
+      data: that.data.audioList[index].url,
+      success(res) {
+        wx.getClipboardData({
+          success(res) {
+            console.log(res.data) // data
+          }
+        })
+      }
+    })
+  },
   
   audio: function() {
     const that = this
@@ -65,7 +80,7 @@ Page({
   audioConfirm: function (e) {
     this.search(e.detail.value)
   },
-  search: function (key) {
+  search: function (key) { 
     const that = this
     wx.request({
       //音乐搜索接口来源为bzqll，部分收费，使用请先沟通

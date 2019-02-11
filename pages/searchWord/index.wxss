@@ -1,0 +1,65 @@
+page {
+  font-size: 0.9rem;
+}
+.text {
+  width: 82vw;
+  height: 88rpx;
+  line-height: 88rpx;
+  border-radius: 44rpx;
+  color: #616161;
+  margin: 3vw 0 0 7vw;
+  padding-left: 4vw;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5xp #d8d8d8;
+}
+/* 推荐搜索样式 */
+.history {
+  width: 80vw;
+  margin: 3vw 0 0 8vw;
+}
+.historyList {
+  display: inline-block;
+  padding: 6rpx 12rpx;
+  background: #efeff4;
+  margin: 3vw 5vw 0 0;
+}
+/* 搜索结果样式 */
+.text-view {
+  font-size: 1.4rem;
+}
+.content {
+  width: 82vw;
+  padding-left: 4vw;
+  margin: 3vw 0 0 8vw;
+  box-shadow: 0 0 5xp #d8d8d8;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.word-content {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20rpx 0;
+}
+.sound {
+  width: 6vw;
+}
+.word-pct {
+  line-height: 6vw;
+  margin: 0 3vw;
+  color: #818181;
+}
+.defin {
+  line-height: 58rpx;
+}
+.noContent {
+  text-align: center;
+  margin: 5vw 0;
+  color: #818181;
+}
+.bg {
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+}

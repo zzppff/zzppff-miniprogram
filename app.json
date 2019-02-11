@@ -4,7 +4,8 @@
     "pages/audio/list/index",
     "pages/audio/content/index",
     "pages/audio/search/index",
-    "pages/lazyLoad/index"
+    "pages/lazyLoad/index",
+    "pages/searchWord/index"
   ],
   "requiredBackgroundModes": ["audio"],
   "window": {

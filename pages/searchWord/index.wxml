@@ -1,0 +1,28 @@
+<input name="text" type='text' class="text" bindinput="getText" value="{{inputValue}}" bindconfirm="toSearch" placeholder='请输入要查询的单词或短语' bindfocus="historyList" />
+<!-- 推荐搜索 -->
+<view class="history" hidden='{{!hidden}}'>
+  <view class="historyTitle">{{historyList == '' ? '推荐搜索' : '历史搜索'}}</view>
+  <block wx:if="{{historyList == ''}}" wx:key="{{randomList}}" wx:for="{{randomList}}">
+    <view class="historyList" data-key="{{item}}" bindtap="historySearch">{{item}}</view>
+  </block>
+  <!-- block不可使用wx:else -->
+  <block wx:if="{{historyList !== ''}}" wx:key="{{historyList}}" wx:for="{{historyList}}" wx:if="{{ index < 5 }}">
+    <view class="historyList" data-key="{{item}}" bindtap="historySearch">{{item}}</view>
+  </block>
+</view>
+<!-- 搜索结果展示 -->
+<view class="content" hidden="{{hidden}}">
+  <block wx:if="{{content.msg == 'SUCCESS'}}">
+    <view class="text-view">{{text}}</view>
+    <view class="word-content" bindtap='playAudio'>
+      <image src="../../images/sound.png" class="sound" mode="widthFix" />
+      <view class="word-pct"> /{{content.data.pronunciations.us}}/ </view>
+    </view>
+    <text class="defin">{{content.data.definition}}</text>
+  </block>
+  <block wx:else>
+    <view class="noContent">没有查到释义哦</view> 
+  </block>
+</view>
+
+<image src="https://hu.ruitulangdu.cn/word/images/bg1.png" mode="widthFix" class='bg'/>

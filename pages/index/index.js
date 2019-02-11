@@ -7,7 +7,8 @@ Page({
     list: [
       { title: '本地音频播放示例', link: 'audio/list', append: ''},
       { title: '音乐搜索播放示例', link: 'audio/search', append: '' },
-      { title: '图片懒加载示例', link: 'lazyLoad', append: '' }
+      { title: '图片懒加载示例', link: 'lazyLoad', append: '' },
+      { title: '单词搜索+搜索记录示例', link: 'searchWord', append: '' }
     ],
     bulingHide: true
   },

@@ -1,10 +1,10 @@
 <view class="search">
-    <input type='text' confirm-type='search' bindinput='audioInput' bindconfirm='audioConfirm' class='search-input' placeholder=' 请输入歌曲名称'/>
-  </view>
+  <input type='text' confirm-type='search' bindinput='audioInput' bindconfirm='audioConfirm' class='search-input' placeholder=' 请输入歌曲名称'/>
+</view>
 <view class="content">
   <!-- list内容开始 -->
   <block wx:key="{{audioList}}" wx:for="{{audioList}}">
-    <view class="audio-list" bindtap='playAudio' data-index="{{index}}">
+    <view class="audio-list" bindtap='playAudio' bindlongtap='copyLink' data-index="{{index}}">
       <view class="audio-pic">
         <image src="{{ listIndex > index ? item.pic : '' }}" class="pic {{listIndex > index ?'Action':''}}" mode="widthFix" />
       </view>
