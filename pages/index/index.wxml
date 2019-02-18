@@ -1,10 +1,13 @@
+<block wx:if="{{!hasUserInfo && canIUse}}">
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="login"> 点击登录 </button>
+</block>
+
 <view bindtap='bodyClick' class="content">
   <block wx:key="{{list}}" wx:for="{{list}}">
     <view class="list" data-key="{{item.link}}" bindtap='linkToList'>
       {{item.title}}
     </view>
   </block>
-
 
   <view class="buling" hidden="{{bulingHide}}" style="top: {{clientY}}px;left: {{clientX}}px;">
     哈哈

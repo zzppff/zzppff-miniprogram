@@ -5,9 +5,11 @@
     "pages/audio/content/index",
     "pages/audio/search/index",
     "pages/lazyLoad/index",
-    "pages/searchWord/index"
+    "pages/searchWord/index",
+    "pages/canvas/index"
   ],
   "requiredBackgroundModes": ["audio"],
+  "enablePullDownRefresh": true,
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
