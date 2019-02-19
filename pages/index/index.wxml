@@ -1,6 +1,18 @@
-<block wx:if="{{!hasUserInfo && canIUse}}">
-  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="login"> 点击登录 </button>
-</block>
+<view class="nav">
+  <view class="userinfo">
+    <block wx:if="{{!hasUserInfo && canIUse}}">
+      <view class="userinfo">
+        <image class="userinfo-avatar" src="../../images/user{{icon}}.png" mode="cover"></image>
+      <text class="userinfo-nickname toLogin">点击登录</text>
+      </view>
+      <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="login"> 点击登录 </button>
+    </block>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
 
 <view bindtap='bodyClick' class="content">
   <block wx:key="{{list}}" wx:for="{{list}}">

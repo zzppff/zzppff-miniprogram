@@ -17,6 +17,9 @@ Page({
     bulingHide: true
   },
   onLoad: function () {
+    this.setData({
+      icon: Math.ceil(Math.random() * 4)
+    })
     //获取用户信息，头像，昵称
     if (app.globalData.userInfo) {
       this.setData({

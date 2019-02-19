@@ -17,11 +17,11 @@ Page({
         title: '你把我灌醉',
         singer: '邓紫棋',
         epname: '',
-        navImg: 'https://zzppff.cn/audio/you/nav.png',
-        coverImg: 'https://zzppff.cn/audio/you/cover.png',
+        navImg: 'https://62.234.33.12/audio/you/nav.png',
+        coverImg: 'https://62.234.33.12/audio/you/cover.png',
         src: [
-          'https://zzppff.cn/audio/you/cq.mp3',
-          'https://zzppff.cn/audio/you/hq.mp3',
+          'https://62.234.33.12/audio/you/cq.mp3',
+          'https://62.234.33.12/audio/you/hq.mp3',
           ''
         ]
       },
@@ -29,23 +29,23 @@ Page({
         title: '北京北京',
         singer: '邓紫棋',
         epname: '',
-        navImg: 'https://zzppff.cn/audio/beijing/nav.png',
-        coverImg: 'https://zzppff.cn/audio/beijing/cover.png',
+        navImg: 'https://62.234.33.12/audio/beijing/nav.png',
+        coverImg: 'https://62.234.33.12/audio/beijing/cover.png',
         src: [
           '',
-          'https://zzppff.cn/audio/beijing/hq.mp3',
-          'https://zzppff.cn/audio/beijing/sq.wav'
+          'https://62.234.33.12/audio/beijing/hq.mp3',
+          'https://62.234.33.12/audio/beijing/sq.wav'
         ]
       },
       {
         title: '夜空中最亮的星',
         singer: '邓紫棋',
         epname: '',
-        navImg: 'https://zzppff.cn/audio/star/nav.png',
-        coverImg: 'https://zzppff.cn/audio/star/cover.png',
+        navImg: 'https://62.234.33.12/audio/star/nav.png',
+        coverImg: 'https://62.234.33.12/audio/star/cover.png',
         src: [
-          'https://zzppff.cn/audio/star/cq.mp3',
-          'https://zzppff.cn/audio/star/hq.mp3',
+          'https://62.234.33.12/audio/star/cq.mp3',
+          'https://62.234.33.12/audio/star/hq.mp3',
           ''
         ]
       }

@@ -2,6 +2,53 @@
   width: 100vw;
   min-height: 100vh;
 }
+.nav {
+  height: 32vw;
+  margin: 1px 0 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #333;
+  background: #fff;
+}
+.userinfo {
+  display: flex;
+  align-items: center;
+}
+.toLogin {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5xp #d8d8d8;
+  padding: 2px 8px;
+}
+.userinfo-avatar {
+  width: 138rpx;
+  height: 138rpx;
+  margin: 20rpx 50rpx;
+  border-radius: 50%;
+  border: 3px solid #f5f5f5;
+}
+.login {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.user-test {
+  height: 60rpx;
+  margin-right: 50rpx;
+  line-height: 60rpx;
+  padding: 0 20rpx;
+  border-radius: 5px;
+  background: #a51c30;
+  font-size: 0.9rem;
+  color: #fff;
+  box-shadow: 0 0 5px #d8d8d8;
+}
+
 .list {
   width: 94vw;
   height: 30vw;
