@@ -1,1 +1,11 @@
 /* pages/canvas/index.wxss */
+.button {
+  width: 80vw;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px solid #888;
+  border: 1px solid #efeff4;
+  margin: 0 auto;
+  text-align: center;
+  height: 10vh;
+  line-height: 10vh;
+}

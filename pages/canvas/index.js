@@ -25,6 +25,7 @@ Page({
           },
           fail() {
             that.setData({
+              avatarUrl: '../../images/user1.png',
               nickName: '你的小伙伴'
             }, () => {
               console.log("未获取到用户数据，使用默认名称")
@@ -55,7 +56,7 @@ Page({
     //开始绘制
     context.drawImage(bgPath, 0, 0, 1000, 1200)//白色背景
     context.drawImage(cardPath, 320, 490, 360, 360)  //二维码
-    context.lineWidth = 12; //直线宽度
+    context.lineWidth = 10; //直线宽度
     context.strokeStyle = "#111"; //直线颜色
     context.moveTo(0, 60);
     context.lineTo(360, 60); //直线长度

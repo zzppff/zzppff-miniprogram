@@ -1,6 +1,8 @@
 
-
-<view bindtap='saveImage' class="button">
-  生成图片
+<view class="container">
+  <view bindtap='saveImage' class="button">
+    生成图片
+  </view>
 </view>
+
 <canvas canvas-id='share' style='width:1000px;height:1000vh;positon:fixed;top:120vh;left:0;' hidden='{{canvasHidden}}'></canvas> 
